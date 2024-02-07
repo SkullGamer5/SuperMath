@@ -11,6 +11,12 @@
         <item name="android:textColorPrimary">@color/white</item>
     </style>
 
+    <style name="MyPurpleTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purplePrimary</item>
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
 
     <style name="Theme.SuperMath" parent="Base.Theme.SuperMath" />
 </resources>

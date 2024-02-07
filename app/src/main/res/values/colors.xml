@@ -4,4 +4,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bluePrimary">#2196F3</color>
     <color name="blueAccent">#03A9F4</color>
+    <color name="purpleAccent">#9C27B0</color>
+    <color name="purplePrimary">#673AB7</color>
 </resources>

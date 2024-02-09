@@ -5,31 +5,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/untitled_1">
+    android:background="@drawable/mainactivitybackground">
 
-    <Button
-        android:id="@+id/about"
+    <!--<Button
+        android:id="@+id/aboutButton"
         android:layout_width="217dp"
         android:layout_height="80dp"
         android:text="درباره ما "
+        android:textSize="28sp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.568"
-        tools:ignore="HardcodedText" />
+        android:textColor = "?android:textColorPrimary"
+        tools:ignore="HardcodedText" />-->
 
     <Button
-        android:id="@+id/shapes"
+        android:id="@+id/shapesButton"
         android:layout_width="217dp"
         android:layout_height="80dp"
         android:text="اشکال هندسی"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintVertical_bias="0.499"
         tools:ignore="HardcodedText" />
 </androidx.constraintlayout.widget.ConstraintLayout>

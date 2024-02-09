@@ -3,5 +3,12 @@
     <style name="Base.Theme.SuperMath" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="MyPurpleTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purplePrimary</item>
+        <item name="colorAccent">@color/purpleAccent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="fontFamily">@font/koodak</item>
     </style>
 </resources>

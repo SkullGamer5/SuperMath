@@ -7,4 +7,34 @@
     tools:context=".shapesMenuActivity"
     android:background="@drawable/mainactivitybackground">
 
+    <Button
+        android:id="@+id/twoDimensionShapes"
+        android:layout_width="217dp"
+        android:layout_height="80dp"
+        android:text="اشکال دو بعدی"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/threeDimensionShapes"
+        android:layout_width="217dp"
+        android:layout_height="80dp"
+        android:text="اشکال سه بعدی"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572"
+        tools:ignore="HardcodedText" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

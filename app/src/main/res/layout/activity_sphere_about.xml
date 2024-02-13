@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sphereActivity"
+    android:background="@drawable/textbackground">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:scrollbars="vertical"
+        android:text="کُره یا گوی یا سِپِهر یک جسم هندسی
+کاملاً گرد در فضای سه بعدی است.
+برای نمونه توپ یک کره است. کره
+مانند دایره که در دو بعد است، در
+فضای سه بعدی یک کاملاً متقارن در
+گرداگرد یک نقطه‌است. تمام نقاطی که
+بر سطح کره جای دارند در فاصلهٔ
+یکسان از مرکز کره قرار دارند.
+فاصلهٔ این نقطه‌ها از مرکز کره،
+شعاع کره نام دارد و با
+حرف r نمایش داده می‌شود. بلندترین
+فاصله از دو سوی کره (که از درون
+کره عبور کند) قطر کره نام دارد.
+قطر کره از مرکز آن نیز می‌گذرد و
+در نتیجه اندازهٔ آن دو برابر
+شعاع است."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

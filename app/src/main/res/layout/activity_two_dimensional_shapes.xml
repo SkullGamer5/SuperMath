@@ -8,7 +8,7 @@
     android:background="@drawable/mainactivitybackground">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/circleButton"
         android:layout_width="235dp"
         android:layout_height="220dp"
         app:layout_constraintBottom_toBottomOf="parent"

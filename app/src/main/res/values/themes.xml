@@ -14,10 +14,15 @@
     <style name="MyPurpleTheme" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/purplePrimary</item>
         <item name="colorAccent">@color/purpleAccent</item>
-        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
         <item name="fontFamily">@font/koodak</item>
     </style>
 
 
     <style name="Theme.SuperMath" parent="Base.Theme.SuperMath" />
+    <!-- Base application theme. -->
+    <style name="Base.MyPurpleTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
 </resources>

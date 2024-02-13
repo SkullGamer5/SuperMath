@@ -13,6 +13,25 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
+            android:name=".sphereCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sphereFormsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sphere_forms"
+            android:theme="@style/MyPurpleTheme" />
+        <activity
+            android:name=".sphereAboutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_sphere_about"
+            android:theme="@style/MyPurpleTheme" />
+        <activity
+            android:name=".circleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sphereActivity"
+            android:exported="false" />
+        <activity
             android:name=".threeDimensionalShapes"
             android:exported="false" />
         <activity

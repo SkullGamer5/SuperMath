@@ -4,6 +4,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/textbackground"
     tools:context=".circleAboutActivity">
 
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:scrollbars="vertical"
+        android:text="در هندسه، دایره یک منحنی مسطح و
+بسته و شامل نقاطی از صفحه است که
+فاصله‌شان از نقطهٔ ثابتی واقع در آن صفحه
+مقداری ثابت باشد. نقطهٔ ثابت، مرکز دایره
+و مقدار ثابت، اندازهٔ شعاع دایره
+نامیده می‌شود. همچنین دایره را می‌توان
+یک بیضی دانست که کانون‌های آن بر
+همدیگر منطبقند (برون‌مرکزی آن صفر است)؛
+ازین‌رو دایره یکی از مقاطع مخروطی است.
+مقطع مخروطی منحنی‌ای است که در محل
+تقاطع یک صفحه با یک مخروط پدیدار
+می‌شود، و هنگامی که صفحه با مقطع مخروط
+موازی باشد منحنی حاصل دایره خواهد بود.
+دایره را همچنین می‌توان به عنوان
+چندضلعی متساوی‌الاضلاعی تعریف کرد که
+تعداد اضلاع آن به بی‌نهایت میل می‌کند. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

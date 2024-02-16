@@ -9,12 +9,24 @@
 
     <ImageView
         android:id="@+id/circleButton"
-        android:layout_width="235dp"
-        android:layout_height="220dp"
+        android:layout_width="174dp"
+        android:layout_height="151dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/circlebutton" />
+
+    <ImageView
+        android:id="@+id/squareButton"
+        android:layout_width="171dp"
+        android:layout_height="158dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
         app:srcCompat="@drawable/circlebutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

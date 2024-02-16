@@ -13,6 +13,18 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
+            android:name=".squareCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".squareFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".squareAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".squareActivity"
+            android:exported="false" />
+        <activity
             android:name=".circleCalActivity"
             android:exported="false" />
         <activity

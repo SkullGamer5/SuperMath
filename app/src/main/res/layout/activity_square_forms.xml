@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/textbackground_copy"
-    tools:context=".circleFormsActivity">
+    android:background="@drawable/textbackground_copy2"
+    tools:context=".squareFormsActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

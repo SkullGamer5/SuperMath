@@ -11,9 +11,14 @@ class twoDimensionalShapesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_two_dimensional_shapes)
 
         val circleButton = findViewById<ImageView>(R.id.circleButton)
-        circleButton.setOnClickListener{
-            val Intent = Intent(this,circleActivity::class.java)
+        circleButton.setOnClickListener {
+            val Intent = Intent(this, circleActivity::class.java)
             startActivity(Intent)
+
+            val squareButton = findViewById<ImageView>(R.id.squareButton)
+            squareButton.setOnClickListener {
+                val Intent = Intent(this, squareActivity::class.java)
+                startActivity(Intent)
+            }
         }
-    }
-}
+    }}

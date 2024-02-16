@@ -5,13 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".circleActivity">
+    tools:context=".squareActivity">
 
     <Button
-        android:id="@+id/circleAboutButton"
+        android:id="@+id/squareAboutButton"
         android:layout_width="217dp"
         android:layout_height="80dp"
-        android:text=" دربارة دایره"
+        android:text="درباره مربع"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         android:textSize="28sp"
@@ -23,10 +23,10 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/circleformsButton"
+        android:id="@+id/squareformsButton"
         android:layout_width="213dp"
         android:layout_height="106dp"
-        android:text="آموزش محاسبات دایره"
+        android:text="آموزش محاسبات مربع"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         android:textSize="28sp"
@@ -39,10 +39,10 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/circlecalButton"
+        android:id="@+id/squarecalButton"
         android:layout_width="216dp"
         android:layout_height="92dp"
-        android:text="حسابگر دایره"
+        android:text="حسابگر مربع"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#000000"
         android:textSize="28sp"
@@ -53,5 +53,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.674"
         tools:ignore="HardcodedText" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainactivitybackground"
+    tools:context=".squareAboutActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:scrollbars="vertical"
+        android:text="مربع در هندسه یک چهار ضلعی منتظم
+است؛ به عبارت دیگر خمی بسته‌است که
+چهار ضلع دارد که همهٔ این ضلع‌ها با هم
+برابر اند و با یکدیگر دو به دو زاویهٔ
+۹۰ درجه یا راست می‌سازند.تعریف دیگر
+برای مربع عبارت است از: مربع،
+راست‌گوشه‌ای یا مستطیلی است که ضلع‌های مجاورش
+طولی برابر دارند.مربع حالت دو بُعدی یا
+n=۲ از خانوادهٔ ابرمکعب‌ها و
+n-ابرهشت‌وجهی‌ها است."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

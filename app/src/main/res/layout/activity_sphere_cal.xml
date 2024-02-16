@@ -13,7 +13,9 @@
         android:layout_height="67dp"
         android:background="@drawable/custom_input"
         android:ems="10"
-        android:hint="Radius"
+        android:hint="شعاع"
+        android:textAlignment="center"
+        android:textSize="30dp"
         android:inputType="text"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
@@ -31,7 +33,9 @@
         android:layout_height="67dp"
         android:background="@drawable/custom_input"
         android:ems="10"
-        android:hint="Radius"
+        android:hint="شعاع"
+        android:textAlignment="center"
+        android:textSize="30dp"
         android:inputType="text"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
@@ -70,14 +74,14 @@
         app:layout_constraintHorizontal_bias="0.972"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735"
+        app:layout_constraintVertical_bias="0.717"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="محاسبه ی حجم"
+        android:text="محاسبة حجم"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -90,7 +94,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="محاسبه ی مساحت"
+        android:text="محاسبة مساحت"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -109,7 +113,6 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.329" />
@@ -123,8 +126,7 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintVertical_bias="0.84" />
 </androidx.constraintlayout.widget.ConstraintLayout>

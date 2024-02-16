@@ -35,5 +35,13 @@ class sphereCalActivity : AppCompatActivity() {
             val sphereVolume = (4.0/3.0)*Math.PI*fRadius.pow(3)
             vAnswer.text = sphereVolume.toString()
         }
+
+        submitSRadius.setOnClickListener {
+            val radius = sInputRadius.text.toString()
+            val fRadius = radius.toFloat()
+
+            val sphereSurface = 4*Math.PI*fRadius.pow(2)
+            sAnswer.text = sphereSurface.toString()
+        }
     }
 }

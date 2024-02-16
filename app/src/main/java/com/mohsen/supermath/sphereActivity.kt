@@ -10,8 +10,8 @@ class sphereActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sphere)
 
-        val sphereAbout = findViewById<Button>(R.id.sphereAboutButton)
-        sphereAbout.setOnClickListener{
+        val sphereAboutButton = findViewById<Button>(R.id.sphereAboutButton)
+        sphereAboutButton.setOnClickListener{
             val Intent = Intent(this,sphereAboutActivity::class.java)
             startActivity(Intent)
         }

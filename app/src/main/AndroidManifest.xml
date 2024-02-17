@@ -13,6 +13,30 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
+            android:name=".triangleFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".triangleAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".triangleCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".triangleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cubeFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cubeAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cubeCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cubeActivity"
+            android:exported="false" />
+        <activity
             android:name=".squareCalActivity"
             android:exported="false" />
         <activity

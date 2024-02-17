@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".squareCalActivity">
+    tools:context=".cubeCalActivity">
 
     <EditText
-        android:id="@+id/pInputRadius"
+        android:id="@+id/vInputRadius"
         android:layout_width="209dp"
         android:layout_height="67dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:hint="ضلع"
+        android:textAlignment="center"
+        android:textSize="30dp"
         android:inputType="text"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
-        android:textAlignment="center"
-        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.034"
@@ -48,7 +48,7 @@
         tools:ignore="HardcodedText" />
 
     <Button
-        android:id="@+id/submitPRadius"
+        android:id="@+id/submitVRadius"
         android:layout_width="158dp"
         android:layout_height="55dp"
         android:text="تایید"
@@ -81,7 +81,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="محاسبة محیط "
+        android:text="محاسبة حجم"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -105,10 +105,10 @@
         app:layout_constraintVertical_bias="0.567" />
 
     <TextView
-        android:id="@+id/pAnswer"
+        android:id="@+id/vAnswer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="محیط:"
+        android:text="حجم:"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -129,5 +129,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.84" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,5 +20,10 @@ class twoDimensionalShapesActivity : AppCompatActivity() {
                 val Intent = Intent(this, squareActivity::class.java)
                 startActivity(Intent)
             }
+            val triangleButton = findViewById<ImageView>(R.id.triangleButton)
+            triangleButton.setOnClickListener {
+                val Intent = Intent(this, triangleActivity::class.java)
+                startActivity(Intent)
+            }
         }
     }}

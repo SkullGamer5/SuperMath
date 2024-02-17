@@ -15,5 +15,10 @@ class threeDimensionalShapes : AppCompatActivity() {
             val Intent = Intent(this,sphereActivity::class.java)
             startActivity(Intent)
         }
-    }
+
+        val cubeButton = findViewById<ImageView>(R.id.cubeButton)
+        cubeButton.setOnClickListener{
+            val Intent = Intent(this,cubeActivity::class.java)
+            startActivity(Intent)
+    }   }
 }

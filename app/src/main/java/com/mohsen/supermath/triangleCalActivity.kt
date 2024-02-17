@@ -7,20 +7,21 @@ import android.widget.EditText
 import android.widget.TextView
 
 class triangleCalActivity : AppCompatActivity() {
+
+    private lateinit var pInputRadius: EditText
+    private lateinit var p1InputRadius: EditText
+    private lateinit var p2InputRadius: EditText
+    private lateinit var submitPRadius: Button
+    private lateinit var pAnswer: TextView
+    private lateinit var sInputRadius: EditText
+    private lateinit var s1InputRadius: EditText
+    private lateinit var submitSRadius: Button
+    private lateinit var sAnswer: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_triangle_cal)
 
-        lateinit var pInputRadius: EditText
-        lateinit var p1InputRadius: EditText
-        lateinit var p2InputRadius: EditText
-        lateinit var submitPRadius: Button
-        lateinit var pAnswer: TextView
-        lateinit var sInputRadius: EditText
-        lateinit var s1InputRadius: EditText
-        lateinit var submitSRadius: Button
-        lateinit var sAnswer: TextView
-
+        // Initialize the views
         pInputRadius = findViewById(R.id.pInputRadius)
         p1InputRadius = findViewById(R.id.p1InputRadius)
         p2InputRadius = findViewById(R.id.p2InputRadius)
@@ -32,6 +33,7 @@ class triangleCalActivity : AppCompatActivity() {
         submitSRadius = findViewById(R.id.submitSRadius)
         sAnswer = findViewById(R.id.sAnswer)
 
+        // Set click listeners for the buttons
         submitPRadius.setOnClickListener {
             val radius = pInputRadius.text.toString()
             val fRadius = radius.toFloat()

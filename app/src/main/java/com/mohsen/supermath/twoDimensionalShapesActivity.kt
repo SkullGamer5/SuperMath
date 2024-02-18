@@ -13,18 +13,17 @@ class twoDimensionalShapesActivity : AppCompatActivity() {
         val circleButton = findViewById<ImageView>(R.id.circleButton)
         circleButton.setOnClickListener {
             val Intent = Intent(this, circleActivity::class.java)
-            startActivity(Intent)}
+            startActivity(Intent)
 
-        val squareButton = findViewById<ImageView>(R.id.squareButton)
-        squareButton.setOnClickListener {
-            val intent = Intent(this, squareActivity::class.java)
-            startActivity(intent)
+            val squareButton = findViewById<ImageView>(R.id.squareButton)
+            squareButton.setOnClickListener {
+                val Intent = Intent(this, squareActivity::class.java)
+                startActivity(Intent)
             }
-        val triangleButton = findViewById<ImageView>(R.id.triangleButton)
-        triangleButton.setOnClickListener {
-            val iNtent = Intent(this, triangleActivity::class.java)
-            startActivity(iNtent)
+            val triangleButton = findViewById<ImageView>(R.id.triangleButton)
+            triangleButton.setOnClickListener {
+                val Intent = Intent(this, triangleActivity::class.java)
+                startActivity(Intent)
             }
-
-    }
-}
+        }
+    }}

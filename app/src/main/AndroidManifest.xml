@@ -13,6 +13,18 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
+            android:name=".pyramidFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pyramidCalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pyramidAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pyramidActivity"
+            android:exported="false" />
+        <activity
             android:name=".triangleFormsActivity"
             android:exported="false" />
         <activity

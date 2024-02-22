@@ -16,6 +16,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
+        val algebraMenuButton = findViewById<Button>(R.id.algebraButton)
+        algebraMenuButton.setOnClickListener {
+            val Intent = Intent(this, algebraMenuActivity::class.java)
+            startActivity(Intent)
+        }
+
         /*val aboutMenuButton = findViewById<Button>(R.id.aboutButton)
         aboutMenuButton.setOnClickListener {
             val Intent = Intent(this,aboutMenuActivity::class.java)

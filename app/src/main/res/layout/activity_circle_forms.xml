@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textbackground_copy"
-    tools:context=".circleFormsActivity">
+    tools:context=".CircleFormsActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

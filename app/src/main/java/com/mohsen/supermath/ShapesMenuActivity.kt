@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class shapesMenuActivity : AppCompatActivity() {
+class ShapesMenuActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_shapes_menu)
@@ -17,8 +17,8 @@ class shapesMenuActivity : AppCompatActivity() {
         }
         val twoDimensionShapes = findViewById<Button>(R.id.twoDimensionShapes)
         twoDimensionShapes.setOnClickListener{
-            val Intent = Intent(this,twoDimensionalShapesActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,TwoDimensionalShapesActivity::class.java)
+            startActivity(intent)
         }
 
 

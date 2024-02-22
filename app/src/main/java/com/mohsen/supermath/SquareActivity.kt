@@ -5,27 +5,27 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class squareActivity : AppCompatActivity() {
+class SquareActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_square)
 
         val squareAboutButton = findViewById<Button>(R.id.squareAboutButton)
         squareAboutButton.setOnClickListener{
-            val Intent = Intent(this,squareAboutActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,SquareAboutActivity::class.java)
+            startActivity(intent)
 
         }
 
         val squareFormsButton = findViewById<Button>(R.id.squareformsButton)
         squareFormsButton.setOnClickListener{
-            val Intent = Intent(this,squareFormsActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,SquareFormsActivity::class.java)
+            startActivity(intent)
         }
 
-        val squarecalButton = findViewById<Button>(R.id.squarecalButton)
-        squarecalButton.setOnClickListener{
-            val Intent = Intent(this,squareCalActivity::class.java)
-            startActivity(Intent)
+        val squareCalButton = findViewById<Button>(R.id.squarecalButton)
+        squareCalButton.setOnClickListener{
+            val intent = Intent(this,SquareCalActivity::class.java)
+            startActivity(intent)
     }
 }}

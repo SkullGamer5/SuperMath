@@ -3,9 +3,9 @@ package com.mohsen.supermath
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class squareAboutActivity : AppCompatActivity() {
+class TriangleFormsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_square_about)
+        setContentView(R.layout.activity_triangle_forms)
     }
 }

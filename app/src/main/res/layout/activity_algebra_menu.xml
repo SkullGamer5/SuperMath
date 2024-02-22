@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".algebraMenuActivity">
+    tools:context=".AlgebraMenuActivity">
 
     <Button
         android:id="@+id/identityButton"

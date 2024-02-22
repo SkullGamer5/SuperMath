@@ -12,20 +12,20 @@ class triangleActivity : AppCompatActivity() {
 
         val triangleAboutButton = findViewById<Button>(R.id.triangleAboutButton)
         triangleAboutButton.setOnClickListener{
-            val Intent = Intent(this,triangleAboutActivity::class.java)
+            val Intent = Intent(this,TriangleAboutActivity::class.java)
             startActivity(Intent)
 
         }
 
         val triangleFormsButton = findViewById<Button>(R.id.triangleformsButton)
         triangleFormsButton.setOnClickListener{
-            val Intent = Intent(this,triangleFormsActivity::class.java)
+            val Intent = Intent(this,TriangleFormsActivity::class.java)
             startActivity(Intent)
         }
 
         val trianglecalButton = findViewById<Button>(R.id.trianglecalButton)
         trianglecalButton.setOnClickListener{
-            val Intent = Intent(this,triangleCalActivity::class.java)
+            val Intent = Intent(this,TriangleCalActivity::class.java)
             startActivity(Intent)
         }
     }

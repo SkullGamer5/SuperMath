@@ -12,14 +12,14 @@ class MainActivity : AppCompatActivity() {
 
         val shapesMenuButton = findViewById<Button>(R.id.shapesButton)
         shapesMenuButton.setOnClickListener{
-            val Intent = Intent(this,shapesMenuActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this,ShapesMenuActivity::class.java)
+            startActivity(intent)
         }
 
         val algebraMenuButton = findViewById<Button>(R.id.algebraButton)
         algebraMenuButton.setOnClickListener {
-            val Intent = Intent(this, algebraMenuActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, AlgebraMenuActivity::class.java)
+            startActivity(intent)
         }
 
         /*val aboutMenuButton = findViewById<Button>(R.id.aboutButton)

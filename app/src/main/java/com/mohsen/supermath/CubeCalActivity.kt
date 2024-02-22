@@ -7,25 +7,18 @@ import android.widget.EditText
 import android.widget.TextView
 import kotlin.math.pow
 
-class cubeCalActivity : AppCompatActivity() {
+class CubeCalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cube_cal)
 
-        lateinit var vInputRadius: EditText
-        lateinit var submitVRadius: Button
-        lateinit var vAnswer: TextView
-        lateinit var sInputRadius: EditText
-        lateinit var submitSRadius: Button
-        lateinit var sAnswer: TextView
+        val vInputRadius: EditText = findViewById(R.id.vInputRadius)
+        val submitVRadius: Button = findViewById(R.id.submitVRadius)
+        val vAnswer: TextView = findViewById(R.id.vAnswer)
 
-        vInputRadius = findViewById(R.id.vInputRadius)
-        submitVRadius = findViewById(R.id.submitVRadius)
-        vAnswer = findViewById(R.id.vAnswer)
-
-        sInputRadius = findViewById(R.id.sInputRadius)
-        submitSRadius = findViewById(R.id.submitSRadius)
-        sAnswer = findViewById(R.id.sAnswer)
+        val sInputRadius: EditText = findViewById(R.id.sInputRadius)
+        val submitSRadius: Button = findViewById(R.id.submitSRadius)
+        val sAnswer: TextView = findViewById(R.id.sAnswer)
 
         submitVRadius.setOnClickListener {
             val radius = vInputRadius.text.toString()

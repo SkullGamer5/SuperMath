@@ -12,19 +12,19 @@ class sphereActivity : AppCompatActivity() {
 
         val sphereAboutButton = findViewById<Button>(R.id.sphereAboutButton)
         sphereAboutButton.setOnClickListener{
-            val Intent = Intent(this,sphereAboutActivity::class.java)
+            val Intent = Intent(this,SphereAboutActivity::class.java)
             startActivity(Intent)
         }
 
         val sphereFormsButton = findViewById<Button>(R.id.sphereformsButton)
         sphereFormsButton.setOnClickListener{
-            val Intent = Intent(this,sphereFormsActivity::class.java)
+            val Intent = Intent(this,SphereFormsActivity::class.java)
             startActivity(Intent)
         }
 
         val spherecalButton = findViewById<Button>(R.id.spherecalButton)
         spherecalButton.setOnClickListener{
-            val Intent = Intent(this,sphereCalActivity::class.java)
+            val Intent = Intent(this,SphereCalActivity::class.java)
             startActivity(Intent)
         }
     }

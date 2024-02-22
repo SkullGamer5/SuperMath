@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
-class triangleCalActivity : AppCompatActivity() {
+class TriangleCalActivity : AppCompatActivity() {
 
     private lateinit var pInputRadius: EditText
     private lateinit var p1InputRadius: EditText

@@ -13,83 +13,83 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
-            android:name=".identityMenu"
+            android:name=".IdentityMenu"
             android:exported="false" />
         <activity
-            android:name=".algebraMenuActivity"
+            android:name=".AlgebraMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".pyramidFormsActivity"
+            android:name=".PyramidFormsActivity"
             android:exported="false" />
         <activity
-            android:name=".pyramidCalActivity"
+            android:name=".PyramidCalActivity"
             android:exported="false" />
         <activity
-            android:name=".pyramidAboutActivity"
+            android:name=".PyramidAboutActivity"
             android:exported="false" />
         <activity
             android:name=".pyramidActivity"
             android:exported="false" />
         <activity
-            android:name=".triangleFormsActivity"
+            android:name=".TriangleFormsActivity"
             android:exported="false" />
         <activity
-            android:name=".triangleAboutActivity"
+            android:name=".TriangleAboutActivity"
             android:exported="false" />
         <activity
-            android:name=".triangleCalActivity"
+            android:name=".TriangleCalActivity"
             android:exported="false" />
         <activity
             android:name=".triangleActivity"
             android:exported="false" />
         <activity
-            android:name=".cubeFormsActivity"
+            android:name=".CubeFormsActivity"
             android:exported="false" />
         <activity
-            android:name=".cubeAboutActivity"
+            android:name=".CubeAboutActivity"
             android:exported="false" />
         <activity
-            android:name=".cubeCalActivity"
+            android:name=".CubeCalActivity"
             android:exported="false" />
         <activity
-            android:name=".cubeActivity"
+            android:name=".CubeActivity"
             android:exported="false" />
         <activity
-            android:name=".squareCalActivity"
+            android:name=".SquareCalActivity"
             android:exported="false" />
         <activity
-            android:name=".squareFormsActivity"
+            android:name=".SquareFormsActivity"
             android:exported="false" />
         <activity
-            android:name=".squareAboutActivity"
+            android:name=".SquareAboutActivity"
             android:exported="false" />
         <activity
-            android:name=".squareActivity"
+            android:name=".SquareActivity"
             android:exported="false" />
         <activity
-            android:name=".circleCalActivity"
+            android:name=".CircleCalActivity"
             android:exported="false" />
         <activity
-            android:name=".circleFormsActivity"
+            android:name=".CircleFormsActivity"
             android:exported="false" />
         <activity
-            android:name=".circleAboutActivity"
+            android:name=".CircleAboutActivity"
             android:exported="false" />
         <activity
-            android:name=".sphereCalActivity"
+            android:name=".SphereCalActivity"
             android:exported="false" />
         <activity
-            android:name=".sphereFormsActivity"
+            android:name=".SphereFormsActivity"
             android:exported="false"
             android:label="@string/title_activity_sphere_forms"
             android:theme="@style/MyPurpleTheme" />
         <activity
-            android:name=".sphereAboutActivity"
+            android:name=".SphereAboutActivity"
             android:exported="false"
             android:label="@string/title_activity_sphere_about"
             android:theme="@style/MyPurpleTheme" />
         <activity
-            android:name=".circleActivity"
+            android:name=".CircleActivity"
             android:exported="false" />
         <activity
             android:name=".sphereActivity"
@@ -98,13 +98,13 @@
             android:name=".threeDimensionalShapes"
             android:exported="false" />
         <activity
-            android:name=".twoDimensionalShapesActivity"
+            android:name=".TwoDimensionalShapesActivity"
             android:exported="false" />
         <activity
-            android:name=".aboutMenuActivity"
+            android:name=".AboutMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".shapesMenuActivity"
+            android:name=".ShapesMenuActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

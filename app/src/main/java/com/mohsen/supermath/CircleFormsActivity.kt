@@ -3,9 +3,9 @@ package com.mohsen.supermath
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class identityMenu : AppCompatActivity() {
+class CircleFormsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_identity_menu)
+        setContentView(R.layout.activity_circle_forms)
     }
 }

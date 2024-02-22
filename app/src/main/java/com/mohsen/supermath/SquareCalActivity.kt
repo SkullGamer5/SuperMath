@@ -6,25 +6,18 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
-class squareCalActivity : AppCompatActivity() {
+class SquareCalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_square_cal)
 
-        lateinit var pInputRadius: EditText
-        lateinit var submitPRadius: Button
-        lateinit var pAnswer: TextView
-        lateinit var sInputRadius: EditText
-        lateinit var submitSRadius: Button
-        lateinit var sAnswer: TextView
+        val pInputRadius: EditText = findViewById(R.id.pInputRadius)
+        val submitPRadius: Button = findViewById(R.id.submitPRadius)
+        val pAnswer: TextView = findViewById(R.id.pAnswer)
 
-        pInputRadius = findViewById(R.id.pInputRadius)
-        submitPRadius = findViewById(R.id.submitPRadius)
-        pAnswer = findViewById(R.id.pAnswer)
-
-        sInputRadius = findViewById(R.id.sInputRadius)
-        submitSRadius = findViewById(R.id.submitSRadius)
-        sAnswer = findViewById(R.id.sAnswer)
+        val sInputRadius: EditText = findViewById(R.id.sInputRadius)
+        val submitSRadius: Button = findViewById(R.id.submitSRadius)
+        val sAnswer: TextView = findViewById(R.id.sAnswer)
 
         submitPRadius.setOnClickListener {
             val radius = pInputRadius.text.toString()

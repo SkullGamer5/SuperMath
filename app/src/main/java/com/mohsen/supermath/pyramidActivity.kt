@@ -12,20 +12,20 @@ class pyramidActivity : AppCompatActivity() {
 
         val pyramidAboutButton = findViewById<Button>(R.id.pyramidAboutButton)
         pyramidAboutButton.setOnClickListener{
-            val Intent = Intent(this,pyramidAboutActivity::class.java)
+            val Intent = Intent(this,PyramidAboutActivity::class.java)
             startActivity(Intent)
 
         }
 
         val pyramidFormsButton = findViewById<Button>(R.id.pyramidformsButton)
         pyramidFormsButton.setOnClickListener{
-            val Intent = Intent(this,pyramidFormsActivity::class.java)
+            val Intent = Intent(this,PyramidFormsActivity::class.java)
             startActivity(Intent)
         }
 
         val pyramidcalButton = findViewById<Button>(R.id.pyramidcalButton)
         pyramidcalButton.setOnClickListener {
-            val Intent = Intent(this,pyramidCalActivity::class.java)
+            val Intent = Intent(this,PyramidCalActivity::class.java)
             startActivity(Intent)
         }
     }

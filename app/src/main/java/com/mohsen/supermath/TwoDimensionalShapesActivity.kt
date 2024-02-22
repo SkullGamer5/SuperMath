@@ -13,7 +13,7 @@ class TwoDimensionalShapesActivity : AppCompatActivity() {
         val circleButton = findViewById<ImageView>(R.id.circleButton)
         circleButton.setOnClickListener {
             val intent1 = Intent(this, CircleActivity::class.java)
-            startActivity(intent1)
+            startActivity(intent1)}
 
             val squareButton = findViewById<ImageView>(R.id.squareButton)
             squareButton.setOnClickListener {
@@ -26,4 +26,4 @@ class TwoDimensionalShapesActivity : AppCompatActivity() {
                 startActivity(intent3)
             }
         }
-    }}
+    }

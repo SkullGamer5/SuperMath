@@ -13,6 +13,12 @@
         android:theme="@style/MyPurpleTheme"
         tools:targetApi="31">
         <activity
+            android:name=".squareIdentityFormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".squareIdentityCalActivity"
+            android:exported="false" />
+        <activity
             android:name=".identityMenu"
             android:exported="false" />
         <activity

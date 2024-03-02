@@ -12,7 +12,7 @@ class IdentityMenu : AppCompatActivity() {
 
         val squareIdentityButton = findViewById<Button>(R.id.squareIdentityButton)
         squareIdentityButton.setOnClickListener{
-            val Intent = Intent(this,shapesMenuActivity::class.java)
+            val Intent = Intent(this,squareIdentityActivity::class.java)
             startActivity(Intent)
         }
     }

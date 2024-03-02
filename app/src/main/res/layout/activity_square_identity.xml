@@ -7,5 +7,35 @@
     android:background="@drawable/mainactivitybackground"
     tools:context=".squareIdentityActivity">
 
+    <Button
+        android:id="@+id/squareIdentityButton1"
+        android:layout_width="208dp"
+        android:layout_height="87dp"
+        android:text="آموزش محاسبه اتحاد مربع"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/squareIdentityButton2"
+        android:layout_width="212dp"
+        android:layout_height="87dp"
+        android:text="محاسبه اتحاد مربع دو جمله"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

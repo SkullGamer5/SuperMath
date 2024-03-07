@@ -1,10 +1,10 @@
 package com.mohsen.supermath
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.math.pow
 
 class CubeCalActivity : AppCompatActivity() {
@@ -24,7 +24,7 @@ class CubeCalActivity : AppCompatActivity() {
             val radius = vInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val  cubeVolume = fRadius.pow(3)
+            val cubeVolume = fRadius.pow(3)
             vAnswer.text = cubeVolume.toString()
         }
 
@@ -32,7 +32,7 @@ class CubeCalActivity : AppCompatActivity() {
             val radius = sInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val cubeSurface = 6*fRadius.pow(2)
+            val cubeSurface = 6 * fRadius.pow(2)
             sAnswer.text = cubeSurface.toString()
         }
     }

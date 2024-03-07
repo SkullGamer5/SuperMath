@@ -1,10 +1,10 @@
 package com.mohsen.supermath
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import kotlin.math.pow
 
 class SphereCalActivity : AppCompatActivity() {
@@ -25,7 +25,7 @@ class SphereCalActivity : AppCompatActivity() {
             val radius = vInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val sphereVolume = (4.0/3.0)*Math.PI*fRadius.pow(3)
+            val sphereVolume = (4.0 / 3.0) * Math.PI * fRadius.pow(3)
             vAnswer.text = sphereVolume.toString()
         }
 
@@ -33,7 +33,7 @@ class SphereCalActivity : AppCompatActivity() {
             val radius = sInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val sphereSurface = 4*Math.PI*fRadius.pow(2)
+            val sphereSurface = 4 * Math.PI * fRadius.pow(2)
             sAnswer.text = sphereSurface.toString()
         }
     }

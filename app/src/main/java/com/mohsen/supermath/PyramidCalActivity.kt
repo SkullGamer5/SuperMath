@@ -29,7 +29,7 @@ class PyramidCalActivity : AppCompatActivity() {
             vInputRadius2.text.toString()
             val fRadius2 = radius.toFloat()
 
-            val  pyramidVolume = fRadius * fRadius2 / 3.0
+            val pyramidVolume = fRadius * fRadius2 / 3.0
             vAnswer.text = pyramidVolume.toString()
         }
 
@@ -37,16 +37,18 @@ class PyramidCalActivity : AppCompatActivity() {
             val radius = sInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-        submitSRadius.setOnClickListener {
-            val radius2 = sInputRadius2.text.toString()
-            val fRadius2 = radius2.toFloat()
+            submitSRadius.setOnClickListener {
+                val radius2 = sInputRadius2.text.toString()
+                val fRadius2 = radius2.toFloat()
 
-        submitSRadius.setOnClickListener {
-            val radius3 = sInputRadius3.text.toString()
-            val fRadius3 = radius3.toFloat()
+                submitSRadius.setOnClickListener {
+                    val radius3 = sInputRadius3.text.toString()
+                    val fRadius3 = radius3.toFloat()
 
-            val cubeSurface =(fRadius*fRadius3)*0.5+fRadius2
-            sAnswer.text = cubeSurface.toString()
+                    val cubeSurface = (fRadius * fRadius3) * 0.5 + fRadius2
+                    sAnswer.text = cubeSurface.toString()
+                }
+            }
         }
     }
-}}}
+}

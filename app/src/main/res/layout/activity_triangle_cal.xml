@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".TriangleCalActivity">
+    tools:context=".TriangleCalActivity"
+    tools:ignore="Overdraw">
 
     <EditText
         android:id="@+id/pInputRadius"
@@ -18,14 +19,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.153"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/p1InputRadius"
@@ -38,14 +40,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.153"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/p2InputRadius"
@@ -58,14 +61,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.153"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/sInputRadius"
@@ -78,14 +82,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.713"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/s1InputRadius"
@@ -98,14 +103,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.713"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/submitPRadius"
@@ -138,7 +144,6 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="محاسبة محیط "
@@ -151,7 +156,6 @@
         app:layout_constraintVertical_bias="0.024" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="محاسبة مساحت"

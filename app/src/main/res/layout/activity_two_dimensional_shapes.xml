@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TwoDimensionalShapesActivity"
-    android:background="@drawable/mainactivitybackground">
+    android:background="@drawable/mainactivitybackground"
+    tools:ignore="Overdraw">
 
     <ImageView
         android:id="@+id/circleButton"
@@ -16,7 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/circlebutton" />
+        app:srcCompat="@drawable/circlebutton"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/squareButton"
@@ -28,7 +30,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/square" />
+        app:srcCompat="@drawable/square"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/triangleButton"
@@ -40,5 +43,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.781"
-        app:srcCompat="@drawable/trianglebutton" />
+        app:srcCompat="@drawable/trianglebutton"
+        android:importantForAccessibility="no" />
 </androidx.constraintlayout.widget.ConstraintLayout>

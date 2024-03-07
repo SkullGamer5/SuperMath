@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".threeDimensionalShapes"
-    android:background="@drawable/mainactivitybackground">
+    tools:context=".ThreeDimensionalShapes"
+    android:background="@drawable/mainactivitybackground"
+    tools:ignore="Overdraw">
 
     <ImageView
         android:id="@+id/sphereButton"
@@ -16,7 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
-        app:srcCompat="@drawable/spherebutton" />
+        app:srcCompat="@drawable/spherebutton"
+        android:importantForAccessibility="no" />
 
     <ImageView
         android:id="@+id/cubeButton"
@@ -27,10 +29,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/cube" />
+        app:srcCompat="@drawable/cube"
+        android:importantForAccessibility="no" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.5"
@@ -55,6 +57,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.969"
-        app:srcCompat="@drawable/pyramidbutton" />
+        app:srcCompat="@drawable/pyramidbutton"
+        android:importantForAccessibility="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

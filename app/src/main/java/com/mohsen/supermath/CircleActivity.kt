@@ -1,9 +1,9 @@
 package com.mohsen.supermath
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 
 class CircleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,21 +11,21 @@ class CircleActivity : AppCompatActivity() {
         setContentView(R.layout.activity_circle)
 
         val circleAboutButton = findViewById<Button>(R.id.circleAboutButton)
-        circleAboutButton.setOnClickListener{
-            val Intent = Intent(this,CircleAboutActivity::class.java)
-            startActivity(Intent)
+        circleAboutButton.setOnClickListener {
+            val intent = Intent(this, CircleAboutActivity::class.java)
+            startActivity(intent)
         }
 
         val circleFormsButton = findViewById<Button>(R.id.circleformsButton)
-        circleFormsButton.setOnClickListener{
-            val Intent = Intent(this,CircleFormsActivity::class.java)
-            startActivity(Intent)
+        circleFormsButton.setOnClickListener {
+            val intent = Intent(this, CircleFormsActivity::class.java)
+            startActivity(intent)
         }
 
         val circlecalButton = findViewById<Button>(R.id.circlecalButton)
-        circlecalButton.setOnClickListener{
-            val Intent = Intent(this,CircleCalActivity::class.java)
-            startActivity(Intent)
+        circlecalButton.setOnClickListener {
+            val intent = Intent(this, CircleCalActivity::class.java)
+            startActivity(intent)
         }
     }
 }

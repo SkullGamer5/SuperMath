@@ -1,10 +1,10 @@
 package com.mohsen.supermath
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class SquareCalActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,7 +23,7 @@ class SquareCalActivity : AppCompatActivity() {
             val radius = pInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val squareP =4 * fRadius
+            val squareP = 4 * fRadius
             pAnswer.text = squareP.toString()
         }
 
@@ -31,7 +31,8 @@ class SquareCalActivity : AppCompatActivity() {
             val radius = sInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val squareSurface =fRadius * fRadius
+            val squareSurface = fRadius * fRadius
             sAnswer.text = squareSurface.toString()
+        }
     }
-}}
+}

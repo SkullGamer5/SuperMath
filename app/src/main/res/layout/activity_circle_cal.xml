@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".CircleCalActivity">
+    tools:context=".CircleCalActivity"
+    tools:ignore="Overdraw">
     <EditText
         android:id="@+id/pInputRadius"
         android:layout_width="209dp"
@@ -14,7 +15,7 @@
         android:ems="10"
         android:hint="شعاع"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:inputType="text"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
@@ -24,7 +25,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.221"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/sInputRadius"
@@ -34,7 +36,7 @@
         android:ems="10"
         android:hint="شعاع"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:inputType="text"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
@@ -44,7 +46,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.73"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <Button
         android:id="@+id/submitPRadius"
@@ -77,7 +80,6 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="محاسبة محیط "
@@ -90,7 +92,6 @@
         app:layout_constraintVertical_bias="0.075" />
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="محاسبة مساحت"

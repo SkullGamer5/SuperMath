@@ -1,9 +1,9 @@
 package com.mohsen.supermath
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 
 class TwoDimensionalShapesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,17 +13,19 @@ class TwoDimensionalShapesActivity : AppCompatActivity() {
         val circleButton = findViewById<ImageView>(R.id.circleButton)
         circleButton.setOnClickListener {
             val intent1 = Intent(this, CircleActivity::class.java)
-            startActivity(intent1)}
+            startActivity(intent1)
+        }
 
         val squareButton = findViewById<ImageView>(R.id.squareButton)
-            squareButton.setOnClickListener {
+        squareButton.setOnClickListener {
             val intent2 = Intent(this, SquareActivity::class.java)
-                startActivity(intent2)
-            }
+            startActivity(intent2)
+        }
+
         val triangleButton = findViewById<ImageView>(R.id.triangleButton)
-            triangleButton.setOnClickListener {
-            val intent3 = Intent(this, triangleActivity::class.java)
-                startActivity(intent3)
-            }
+        triangleButton.setOnClickListener {
+            val intent3 = Intent(this, TriangleActivity::class.java)
+            startActivity(intent3)
         }
     }
+}

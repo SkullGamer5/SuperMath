@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".squareIdentityCalActivity">
+    tools:context=".SquareIdentityCalActivity"
+    tools:ignore="Overdraw">
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="محاسبه اتحاد"
@@ -47,14 +47,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.168"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.299"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/InputSecondNum"
@@ -67,14 +68,15 @@
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:textAlignment="center"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.299"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/Answer"

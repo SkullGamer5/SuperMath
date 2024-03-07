@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainactivitybackground"
-    tools:context=".pyramidActivity">
+    tools:context=".PyramidActivity"
+    tools:ignore="Overdraw">
 
     <Button
         android:id="@+id/pyramidAboutButton"

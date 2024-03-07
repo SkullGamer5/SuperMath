@@ -23,7 +23,7 @@ class CircleCalActivity : AppCompatActivity() {
             val radius = pInputRadius.text.toString()
             val fRadius = radius.toFloat()
 
-            val circleP =2 * Math.PI * fRadius
+            val circleP = 2 * Math.PI * fRadius
             pAnswer.text = circleP.toString()
         }
 
@@ -33,6 +33,6 @@ class CircleCalActivity : AppCompatActivity() {
 
             val circleSurface = Math.PI * fRadius * fRadius
             sAnswer.text = circleSurface.toString()
+        }
     }
-}
 }

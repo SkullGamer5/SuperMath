@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/textbackground_copy3"
-    tools:context=".CubeFormsActivity">
+    tools:context=".CubeFormsActivity"
+    tools:ignore="Overdraw">
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.5"

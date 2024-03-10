@@ -27,7 +27,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.163"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/vInputRadius2"
@@ -48,7 +49,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.164"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/sInputRadius"
@@ -69,7 +71,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.637"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/sInputRadius2"
@@ -90,7 +93,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.729"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/sInputRadius3"
@@ -111,7 +115,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.637"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <Button
         android:id="@+id/submitVRadius"

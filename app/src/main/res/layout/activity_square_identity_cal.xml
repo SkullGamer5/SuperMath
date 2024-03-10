@@ -55,7 +55,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.299"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/InputSecondNum"
@@ -76,7 +77,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.299"
         tools:ignore="HardcodedText"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:id="@+id/Answer"

@@ -18,7 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@drawable/circlebutton"
-        android:importantForAccessibility="no" />
+        android:importantForAccessibility="no"
+        tools:targetApi="jelly_bean" />
 
     <ImageView
         android:id="@+id/squareButton"
@@ -31,7 +32,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374"
         app:srcCompat="@drawable/square"
-        android:importantForAccessibility="no" />
+        android:importantForAccessibility="no"
+        tools:targetApi="jelly_bean" />
 
     <ImageView
         android:id="@+id/triangleButton"
@@ -44,5 +46,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.781"
         app:srcCompat="@drawable/trianglebutton"
-        android:importantForAccessibility="no" />
+        android:importantForAccessibility="no"
+        tools:targetApi="jelly_bean" />
 </androidx.constraintlayout.widget.ConstraintLayout>

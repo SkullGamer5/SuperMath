@@ -4,5 +4,42 @@
     <string name="title_activity_sphere_forms">sphereFormsActivity</string>
     <string name="circleAboutText">در هندسه، دایره یک منحنی مسطح و بسته و شامل نقاطی از صفحه است که فاصله‌شان از نقطهٔ ثابتی واقع در آن صفحه مقداری ثابت باشد. نقطهٔ ثابت، مرکز دایره و مقدار ثابت، اندازهٔ شعاع دایره نامیده می‌شود. همچنین دایره را می‌توان یک بیضی دانست که کانون‌های آن بر همدیگر منطبقند (برون‌مرکزی آن صفر است)؛ ازین‌رو دایره یکی از مقاطع مخروطی است. مقطع مخروطی منحنی‌ای است که در محل تقاطع یک صفحه با یک مخروط پدیدار می‌شود، و هنگامی که صفحه با مقطع مخروط موازی باشد منحنی حاصل دایره خواهد بود. دایره را همچنین می‌توان به عنوان چندضلعی متساوی‌الاضلاعی تعریف کرد که تعداد اضلاع آن به بی‌نهایت میل می‌کند.</string>
     <string name="calculatePerimeter">محاسبة محیط</string>
+    <string name="calculateArea">محاسبة مساحت</string>
+    <string name="perimeter">محیط:</string>
+    <string name="Area">مساحت:</string>
+    <string name="cubeAbout">مُکَعَّب به حجم بستهٔ سه‌بعدی‌ای گویند که از ۶ مربع برابر تشکیل شده باشد. به صورتی که هر ضلع هریک از مربع‌ها با تنها یک مربع دیگر مشترک باشد و در رأس‌ها سه مربع با یکدیگر در ارتباط هستند. مکعب را می‌توان یک شش وجهی منظم نامید و یکی از پنج جسم افلاطونی است. اگر همه یا برخی از وجوه یک مکعب را از مربع به مستطیل تغییر بدهیم، شش وجهی به وجود آمده مکعب مستطیل نامیده می‌شود. گاه برای تمایز با مکعب مستطیل، مکعب (با وجوه مربع) را مکعب مربع نیز ممکن است بنامند؛ و حجم آن برابر است با مساحت قاعده در ارتفاع. مساحت گسترده مکعب مساوی است با (ضلع×ضلع)×۶.</string>
+    <string name="calculateVolume">محاسبة حجم</string>
+    <string name="calculateAreaCube">محاسبة مساحت</string>
+    <string name="Volume">حجم:</string>
+    <string name="cubeArea">مساحت:</string>
+    <string name="cubeFormsArea">مساحت</string>
+    <string name="cubeFormsVolume">حجم</string>
+    <string name="pyramidAbout">هرم شکلی سه‌بعدی است که از اتصال نقطه‌ای در فضا به تمام نقاط شکلی بسته در صفحه به وجود می‌آید. به آن نقطه، رأس هرم و به آن شکل مسطح، قاعده هرم گفته می‌شود. قاعده هرم، چندضلعی دلخواه است و سایر وجه‌ها مثلث‌هایی همرس هستند که در رأس به یکدیگر متصل می‌شوند. خط قائمی که رأس را به قاعده متصل می‌کند، ارتفاع هرم نامیده می‌شود. از معروف‌ترین سازه‌های جهان به شکل هرم، می‌توان به اهرام ثلاثه مصر اشاره کرد.</string>
+    <string name="calculatePyramidVolume">محاسبة حجم</string>
+    <string name="calculatePyramidArea">محاسبة مساحت</string>
+    <string name="pyramidVolume">حجم:</string>
+    <string name="pyramidArea">مساحت:</string>
+    <string name="sphereAbout">کُره یا گوی یا سِپِهر یک جسم هندسی کاملاً گرد در فضای سه بعدی است. برای نمونه توپ یک کره است. کره مانند دایره که در دو بعد است، در فضای سه بعدی یک کاملاً متقارن در گرداگرد یک نقطه‌است. تمام نقاطی که بر سطح کره جای دارند در فاصلهٔ یکسان از مرکز کره قرار دارند. فاصلهٔ این نقطه‌ها از مرکز کره، شعاع کره نام دارد و با حرف r نمایش داده می‌شود. بلندترین فاصله از دو سوی کره (که از درون کره عبور کند) قطر کره نام دارد. قطر کره از مرکز آن نیز می‌گذرد و در نتیجه اندازهٔ آن دو برابر شعاع است.</string>
+    <string name="calculateSphereVolume">محاسبة حجم</string>
+    <string name="calculateSphereArea">محاسبة مساحت</string>
+    <string name="sphereVolume">حجم:</string>
+    <string name="sphereArea">مساحت:</string>
+    <string name="squareAbout">مربع در هندسه یک چهار ضلعی منتظم است؛ به عبارت دیگر خمی بسته‌است که چهار ضلع دارد که همهٔ این ضلع‌ها با هم برابر اند و با یکدیگر دو به دو زاویهٔ ۹۰ درجه یا راست می‌سازند.تعریف دیگر برای مربع عبارت است از: مربع، راست‌گوشه‌ای یا مستطیلی است که ضلع‌های مجاورش طولی برابر دارند.مربع حالت دو بُعدی یا n=۲ از خانوادهٔ ابرمکعب‌ها و n-ابرهشت‌وجهی‌ها است.</string>
+    <string name="calculateSquarePerimeter">محاسبة محیط</string>
+    <string name="calculateSquareArea">محاسبة مساحت</string>
+    <string name="squarePerimeter">محیط:</string>
+    <string name="squareArea">مساحت:</string>
+    <string name="squareFormsPerimeter">محیط</string>
+    <string name="squareFormsArea">مساحت</string>
+    <string name="calculateIdentity">محاسبه اتحاد</string>
+    <string name="answer">پاسخ:</string>
+    <string name="cube">مکعب</string>
+    <string name="triangleAbout">مُثَلَّث یا سه‌گوشه یا سه‌گوش یک چندضلعی با سه ضلع است. مثلث شکلی مسطح است که از اتصال سه نقطه غیرهم‌خط در صفحه به وجود می‌آید. مثلث سه ضلع و سه زاویه (رأس) دارد. به بیان دیگر از برخورد سه خط راست به یک‌دیگر به‌طوری که اگر هر دو خط یک‌دیگر را قطع کنند، مثلث پدید می‌آید. در هندسهٔ اقلیدسی مجموع زوایای هر مثلث برابر ۱۸۰ درجه است.</string>
+    <string name="calculateTrianglePerimeter">محاسبة محیط</string>
+    <string name="calculateTriangleArea">محاسبة مساحت</string>
+    <string name="trianglePerimeter">محیط:</string>
+    <string name="triangleArea">مساحت:</string>
+    <string name="triangleFormsArea">مساحت</string>
+    <string name="triangleFormsPerimeter">محیط</string>
 
 </resources>

@@ -13,17 +13,7 @@
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.5"
         android:scrollbars="vertical"
-        android:text="مُثَلَّث یا سه‌گوشه یا سه‌گوش یک
-چندضلعی با سه ضلع است. مثلث شکلی مسطح است
-که از اتصال سه نقطه غیرهم‌خط در صفحه
-به وجود می‌آید. مثلث سه ضلع و سه
-زاویه (رأس) دارد. به بیان دیگر از
-برخورد سه خط راست به یک‌دیگر به‌طوری که
-اگر هر دو خط یک‌دیگر را قطع کنند،
-مثلث پدید می‌آید. در هندسهٔ اقلیدسی
-مجموع زوایای هر مثلث برابر ۱۸۰ درجه
-است.
-"
+        android:text="@string/triangleAbout"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="23sp"

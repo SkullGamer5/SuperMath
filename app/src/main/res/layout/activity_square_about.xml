@@ -13,16 +13,7 @@
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.5"
         android:scrollbars="vertical"
-        android:text="مربع در هندسه یک چهار ضلعی منتظم
-است؛ به عبارت دیگر خمی بسته‌است که
-چهار ضلع دارد که همهٔ این ضلع‌ها با هم
-برابر اند و با یکدیگر دو به دو زاویهٔ
-۹۰ درجه یا راست می‌سازند.تعریف دیگر
-برای مربع عبارت است از: مربع،
-راست‌گوشه‌ای یا مستطیلی است که ضلع‌های مجاورش
-طولی برابر دارند.مربع حالت دو بُعدی یا
-n=۲ از خانوادهٔ ابرمکعب‌ها و
-n-ابرهشت‌وجهی‌ها است."
+        android:text="@string/squareAbout"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="23sp"

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Super Math</string>
     <string name="title_activity_sphere_about">sphereAboutActivity</string>
-    <!-- Strings used for fragments for navigation -->
-
     <string name="title_activity_sphere_forms">sphereFormsActivity</string>
+    <string name="circleAboutText">در هندسه، دایره یک منحنی مسطح و بسته و شامل نقاطی از صفحه است که فاصله‌شان از نقطهٔ ثابتی واقع در آن صفحه مقداری ثابت باشد. نقطهٔ ثابت، مرکز دایره و مقدار ثابت، اندازهٔ شعاع دایره نامیده می‌شود. همچنین دایره را می‌توان یک بیضی دانست که کانون‌های آن بر همدیگر منطبقند (برون‌مرکزی آن صفر است)؛ ازین‌رو دایره یکی از مقاطع مخروطی است. مقطع مخروطی منحنی‌ای است که در محل تقاطع یک صفحه با یک مخروط پدیدار می‌شود، و هنگامی که صفحه با مقطع مخروط موازی باشد منحنی حاصل دایره خواهد بود. دایره را همچنین می‌توان به عنوان چندضلعی متساوی‌الاضلاعی تعریف کرد که تعداد اضلاع آن به بی‌نهایت میل می‌کند.</string>
+    <string name="calculatePerimeter">محاسبة محیط</string>
+
 </resources>

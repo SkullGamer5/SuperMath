@@ -12,6 +12,9 @@
         android:theme="@style/MyPurpleTheme"
         >
         <activity
+            android:name=".SquareIdentityActivity"
+            android:exported="false" />
+        <activity
             android:name=".SquareIdentityFormsActivity"
             android:exported="false" />
         <activity

@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.031"
         app:srcCompat="@drawable/spherebutton"
         android:importantForAccessibility="no"
-        tools:targetApi="jelly_bean" />
+         />
 
     <ImageView
         android:id="@+id/cubeButton"
@@ -32,14 +32,14 @@
         app:layout_constraintVertical_bias="0.499"
         app:srcCompat="@drawable/cube"
         android:importantForAccessibility="no"
-        tools:targetApi="jelly_bean" />
+         />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:lineSpacingMultiplier="1.5"
         android:scrollbars="vertical"
-        android:text="مکعب"
+        android:text="@string/cube"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="30sp"
@@ -62,6 +62,6 @@
         app:layout_constraintVertical_bias="0.969"
         app:srcCompat="@drawable/pyramidbutton"
         android:importantForAccessibility="no"
-        tools:targetApi="jelly_bean" />
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="محاسبه اتحاد"
+        android:text="@string/calculateIdentity"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,7 +84,7 @@
         android:id="@+id/Answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="پاسخ:"
+        android:text="@string/answer"
         android:textColor="@color/white"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"

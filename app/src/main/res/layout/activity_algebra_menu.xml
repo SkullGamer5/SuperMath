@@ -12,7 +12,7 @@
         android:id="@+id/identityButton"
         android:layout_width="217dp"
         android:layout_height="80dp"
-        android:text="اتحاد"
+        android:text="@string/identity"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#FFFFFF"
         android:textSize="28sp"

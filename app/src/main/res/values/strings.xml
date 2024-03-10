@@ -4,5 +4,16 @@
     <string name="title_activity_sphere_forms">sphereFormsActivity</string>
     <string name="circleAboutText">در هندسه، دایره یک منحنی مسطح و بسته و شامل نقاطی از صفحه است که فاصله‌شان از نقطهٔ ثابتی واقع در آن صفحه مقداری ثابت باشد. نقطهٔ ثابت، مرکز دایره و مقدار ثابت، اندازهٔ شعاع دایره نامیده می‌شود. همچنین دایره را می‌توان یک بیضی دانست که کانون‌های آن بر همدیگر منطبقند (برون‌مرکزی آن صفر است)؛ ازین‌رو دایره یکی از مقاطع مخروطی است. مقطع مخروطی منحنی‌ای است که در محل تقاطع یک صفحه با یک مخروط پدیدار می‌شود، و هنگامی که صفحه با مقطع مخروط موازی باشد منحنی حاصل دایره خواهد بود. دایره را همچنین می‌توان به عنوان چندضلعی متساوی‌الاضلاعی تعریف کرد که تعداد اضلاع آن به بی‌نهایت میل می‌کند.</string>
     <string name="calculatePerimeter">محاسبة محیط</string>
-
+    <string name="identity">اتحاد</string>
+    <string name="aboutCircle"> دربارة دایره</string>
+    <string name="circleForms">آموزش محاسبات دایره</string>
+    <string name="circleCal">حسابگر دایره</string>
+    <string name="radius">شعاع</string>
+    <string name="accept">تایید</string>
+    <string name="calculateArea">محاسبة مساحت</string>
+    <string name="perimeterqouta">محیط:</string>
+    <string name="areaqouta">مساحت:</string>
+    <string name="aboutCube">دربارة مکعب</string>
+    <string name="cubeForms">آموزش محاسبات مکعب</string>
+    <string name="cubeCal">حسابگر مکعب</string>
 </resources>
